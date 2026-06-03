@@ -6,7 +6,7 @@ int main()
 	scanf("%d",&num);
 	x=num/10;
 	y=num%10;
-	if(x>=y)
+	if(x>y)
 		printf("Success");
 	else
 		printf("Failure");
